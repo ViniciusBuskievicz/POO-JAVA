@@ -1,0 +1,13 @@
+package exerciciosaula7.atividade1.atividade2;
+
+public class Bicicleta extends Veiculo {
+
+    public Bicicleta(String nome) {
+        super(nome);
+    }
+
+    @Override
+    public void mover() {
+        System.out.println("A bicicleta " + getNome() + " está se movendo.");
+    }
+}
