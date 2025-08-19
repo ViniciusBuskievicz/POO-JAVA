@@ -1,4 +1,4 @@
-package exerciciosaula7.atividade1.atividade3;
+package exerciciosaula7.atividade3;
 
 public class Produto {
     protected String nome;

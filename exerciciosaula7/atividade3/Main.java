@@ -1,4 +1,4 @@
-package exerciciosaula7.atividade1.atividade3;
+package exerciciosaula7.atividade3;
 
 import java.util.ArrayList;
 import java.util.List;

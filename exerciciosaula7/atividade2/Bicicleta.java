@@ -1,4 +1,4 @@
-package exerciciosaula7.atividade1.atividade2;
+package exerciciosaula7.atividade2;
 
 public class Bicicleta extends Veiculo {
 
