@@ -24,5 +24,5 @@ public class Departamento {
         for (Funcionario f : funcionarios) {
             System.out.println(f);
         }
-}
+    }
 }
