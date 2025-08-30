@@ -1,4 +1,4 @@
-package atividadesaula8.exercicio1.exercicio3;
+package atividadesaula8.exercicio3;
 
 abstract class Funcionario {
     protected String nome;

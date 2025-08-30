@@ -1,4 +1,4 @@
-package atividadesaula8.exercicio1.exercicio3;
+package atividadesaula8.exercicio3;
 
 class Gerente extends Funcionario {
     public Gerente(String nome, double salario) {

@@ -1,4 +1,4 @@
-package atividadesaula8.exercicio1.exercicio2;
+package atividadesaula8.exercicio2;
 
 class Carro extends Veiculo {
     public Carro(String marca, String modelo) {
