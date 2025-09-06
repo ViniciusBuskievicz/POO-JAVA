@@ -1,4 +1,4 @@
-package exerciciosaula9.exercicio1.exercicio3;
+package exerciciosaula9.exercicio3;
 
 public class Recibo implements Imprimivel{
     @Override

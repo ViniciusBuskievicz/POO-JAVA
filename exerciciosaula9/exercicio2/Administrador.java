@@ -1,4 +1,4 @@
-package exerciciosaula9.exercicio1.exercicio2;
+package exerciciosaula9.exercicio2;
 
 public class Administrador implements Autenticavel{
     private String senha;
