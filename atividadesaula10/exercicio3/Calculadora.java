@@ -1,4 +1,6 @@
-package atividadesaula10.exercicio1;
+package atividadesaula10.exercicio3;
+
+import java.util.Scanner;
 
 class DivisaoPorZeroException extends Exception {
     public DivisaoPorZeroException(String mensagem) {
@@ -15,11 +17,20 @@ public class Calculadora {
     }
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite o primeiro número: ");
+        int a = scanner.nextInt();
+
+        System.out.print("Digite o segundo número: ");
+        int b = scanner.nextInt();
+
         try {
-            System.out.println(dividir(10, 2)); // Exibe 5
-            System.out.println(dividir(10, 0)); // Lança exceção
+            int resultado = dividir(a, b);
+            System.out.println("Resultado da divisão: " + resultado);
         } catch (DivisaoPorZeroException e) {
             System.out.println(e.getMessage());
         }
+        scanner.close();
     }
 }
