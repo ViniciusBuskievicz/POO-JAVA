@@ -1,4 +1,4 @@
-package atividadesaula13.exercicio1.exercicio2;
+package atividadesaula13.exercicio2;
 
 enum StatusPedido {
     NOVO,
